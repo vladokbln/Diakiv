@@ -1,20 +1,22 @@
 /*HEADER__SLIDER-PLUGIN*/
 .header__bg {
-	position: relative;
-	min-height: 740px;
-	background: #a7a7a7 url(../img/header_bg.jpg) no-repeat center 0;
+	background: url(../img/header_bg.jpg) no-repeat center;
 	background-size: cover;
-	&:before {
-		content: '';
-		position: absolute;
-		display: block;
-		width: 872px;
-		height: 100%;
-		right: 0;
-		top: 0;
-		background: url(../img/header_bg-2.png) no-repeat 0 0;
-		background-size: contain;
+	.container {
+		min-height: 740px;
+		&:before {
+			content: '';
+			position: absolute;
+			display: block;
+			width: 872px;
+			height: 100%;
+			right: 0;
+			top: 0;
+			background: url(../img/header_bg-2.png) no-repeat 0 0;
+			background-size: contain;
+		}
 	}
+
 }
 .header {
 	width: 100%;

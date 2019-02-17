@@ -5,3 +5,5 @@ $('.testimonials__slider').slick({
     prevArrow: '.testimonials__slider-btn_prev',
     nextArrow: '.testimonials__slider-btn_next'
 });
+
+
